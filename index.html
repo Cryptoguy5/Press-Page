@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press Page</title>
+    <style>
+        body {
+            height: 110vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+        }
+
+        .main {
+            height: 100%;
+            width: 100%;
+            background-image: url(./watercolor-pattern-flowers-digital-art-style_1268-28282.jpg);
+            background-size: cover;
+        }
+
+        .top {
+            height: 10%;
+            display: flex;
+            padding-left: 10px;
+        }
+
+        .middle {
+            height: 40%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bottom {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            height: 75%;
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section {
+         height: 100%;
+         width: 33%;
+         display: flex;
+         align-items: center;
+        }
+
+        img {
+            height: 30px;
+            margin: 0;
+        }
+
+        .img2 {
+            height: 75%;
+        }
+
+        .bold {
+            font-weight: bolder;
+        }
+
+        .margin {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .justify {
+            justify-content: center;
+        }
+        
+        .one {
+            background-color: white;
+            color: green;
+            border: 2px solid green;
+            height: 50%;
+            width: 25%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        .two {
+            background-color: green;
+            color: white;
+            border: 2px solid darkgreen;
+            height: 50%;
+            width: 25%;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+       .flex {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+
+       .height {
+        height: 25%;
+        width: 50%;
+       }
+
+       .border {
+        box-shadow: 0 0 10px 0;
+        padding: 20px;
+       }
+
+       .arrange {
+        justify-content: space-between;
+       }
+
+       .column {
+        flex-direction: column;
+       }
+
+       .width {
+        width: 100%;
+       }
+
+       .width2 {
+        width: 50%;
+       }
+
+       .nomargin {
+        margin: 0;
+       }
+
+       @media (max-width: 680px) {
+        .bottom {
+            width: 100%;
+        }
+
+        .section {
+            width: 100%;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        .one {
+            width: 50%;
+        }
+
+        .two {
+            width: 50%;
+        }
+       }
+    </style>
+</head>
+<body>
+    <div class="main">
+       <div class="top">
+           <div class="section">
+            <img src="./letter-e.png" alt="E">
+            <h2>Link</h2>
+           </div>
+           <div class="section bold">
+            <p class="margin">How elink works</p>
+            <p class="margin">Product</p>
+            <p class="margin">Pricing</p>
+            <p class="margin">Features</p>
+           </div>
+           <div class="section justify">
+            <button class="one">
+                Sign In
+            </button>
+            <button class="two">
+                Get Started
+            </button>
+           </div>
+       </div>
+       <div class="middle">
+          <div class="content flex">
+             <h1>Beautiful Newsletters and Web Content in Minutes</h1>
+             <p style="font-size: 24px; color: rgb(61, 58, 58);">Save weblinks and turn them into email newsletters, web content, single web pages, social
+                media bio links, and much more!
+             </p>
+             <button class="two height">
+                Get Started For Free
+             </button>
+          </div>
+       </div>
+       <div class="bottom flex">
+        <div class="section column border width2">
+           <div class="content height width">
+               <div class="section  bold width justify">
+                <img src="./letter-e.png" alt="E">
+                <p class="margin" style="color: green;">Dashboard</p>
+                <p class="margin">Posts</p>
+                <p class="margin">Library</p>
+                <p class="margin">Feeds</p>
+                <img src="./template_3.jpg">
+               </div>
+           </div>
+           <div class="section arrange width">
+               <h2>Quick Access</h2>
+               <button class="two height">+Create Post</button>
+           </div>
+           <div class="section width">
+           <div class="section margin column" style="background-color: white;">
+              <img class="img2 width" src="./puffins-8404284_1280.webp" alt="puffins">
+              <p class="bold">Puffins, the pengiuns of the north.</p>
+              <p class="nomargin" style="color: gray;">Uploaded 1 day ago</p>
+           </div>
+           <div class="section margin column" style="background-color: white;">
+            <img class="img2 width" src="./mountains-8357180_1280.webp" alt="puffins">
+            <p class="bold">Great Places to Vacation and to relax.</p>
+            <p class="nomargin" style="color: gray;">Uploaded 3 days ago</p>
+         </div>
+         <div class="section margin column" style="background-color: white;">
+            <img class="img2 width" src="./piano-8413277_1280.webp" alt="puffins">
+            <p class="bold">The benefits of music on your mood.</p>
+            <p class="nomargin" style="color: gray;">Uploaded 4 days ago</p>
+         </div>
+          </div>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
